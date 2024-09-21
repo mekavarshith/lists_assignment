@@ -69,7 +69,7 @@ def change_order(order):
 def print_check(order):
     print("Here is your check:")
     total = functions.calculate_subtotal(order)
-    tax = total * 0.05  # Assuming 5% tax
+    tax = total * 0.04  # Assuming 4% tax
     total = total + tax
     functions.display_current_order(order)
     print(f"Subtotal: ${total:.2f}")
