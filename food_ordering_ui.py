@@ -4,8 +4,8 @@ import functions
 def show_main_menu():
   current_order = []
   while True:
-    print("saketh krovvidi's diner") #edit to show your name
-    print("")
+    print("smeka3's diner") #edit to show your name
+    print("******************************")
     print('N for a new order')
     print("C to change the current order")
     print('X for close orders and print the check')

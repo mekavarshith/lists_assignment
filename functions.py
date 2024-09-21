@@ -46,5 +46,6 @@ def display_current_order(order):
     print(f"Order list: {order}")
     
     for code, name, qty, price in order:
+        
         price = int(price)  # Ensure price is an integer
-        print(f"{code+name} - ${price }")
+        print(f"{code+name} - ${price}")
